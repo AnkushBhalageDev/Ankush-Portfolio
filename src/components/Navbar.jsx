@@ -11,8 +11,8 @@ const Navbar = () => {
                 <img className='mx-2 w-10' src={logo} alt='logo' />
             </div>
             <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-                <FaLinkedin/>
-                <FaGithub/>
+                <a href='https://www.linkedin.com/in/ankush-bhalage-93597718b/'><FaLinkedin /></a>
+                <a href='https://github.com/AnkushBhalageDev'><FaGithub/></a>
             </div>
         </nav>
     )
